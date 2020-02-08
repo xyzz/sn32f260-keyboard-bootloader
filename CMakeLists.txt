@@ -44,3 +44,4 @@ endfunction(add_bootloader)
 
 add_bootloader(generic)
 add_bootloader(womier_k66)
+add_bootloader(ganss_gk87pro)
