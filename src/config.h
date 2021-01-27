@@ -14,6 +14,12 @@
 #define BLKEY_INPUT_PIN 8
 #define BLKEY_OUTPUT_GPIO SN_GPIO0
 #define BLKEY_OUTPUT_PIN 12
+#elif defined(TARGET_AKKO_3084BT5)
+/* Spacebar */
+#define BLKEY_INPUT_GPIO SN_GPIO2
+#define BLKEY_INPUT_PIN 10
+#define BLKEY_OUTPUT_GPIO SN_GPIO0
+#define BLKEY_OUTPUT_PIN 6
 #else
 #error Not configured for this target.
 #endif
